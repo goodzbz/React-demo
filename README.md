@@ -1,3 +1,11 @@
+使用 React、antd、antd-mobile 完成人员管理功能
+
+人员信息包括：编号、姓名、出生年月、性别、籍贯、民族、兴趣爱好、所在部门等。
+
+功能包括支持查询的人员列表、人员新增、修改和删除等功能。
+
+需要实现 PC 端和移动 H5 两套功能，后端接口使用 mockjs 自行模拟。脚手架可以采用 create-react-app\vite\umi 等不限
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

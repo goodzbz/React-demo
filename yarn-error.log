@@ -1,0 +1,78 @@
+Arguments: 
+  D:\nvm\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js add babel-plugin-import
+
+PATH: 
+  C:\Program Files\VanDyke Software\Clients\;D:\myoracle\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVD:\Javajdk\jdk1.8.0_152\bin;D:\Javajdk\jdk1.8.0_152\bin;DIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\web\anzhuangbao\apache-tomcat-8.5.72\bin;D:\web\anzhuangbao\apache-tomcat-8.5.72\lib\servlet-api.jar;D:\git\Git\cmd;D:\微信web开发者工具\dll;D:\python;D:\maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\BaiduNetdiskDownload\Process Lasso\;C:\Program Files\Process Lasso\;C:\Program Files\TortoiseSVN\bin;D:\mango\bin;D:\mango\mongo-shell\mongosh-1.6.0-win32-x64\bin;D:\nvm;D:\nvm\nodejs;D:\nvm\node_global;D:\nodejs\node_global\node_modules\yarn\bin;D:\nodejs\node_global;D:\python\Scripts\;D:\python\;C:\Users\86131\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;D:\idea\IntelliJ IDEA 2020.1\bin;D:\vs\Microsoft VS Code\bin;C:\Users\86131\Desktop\Fiddler;C:\Users\86131\AppData\Local\atom\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/@ant-design/icons-svg/-/icons-svg-4.2.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:839:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:550:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "demo",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@craco/craco": "^7.1.0",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "antd": "^5.6.4",
+      "craco-less": "^2.1.0-alpha.0",
+      "mockjs": "^1.1.0",
+      "normalize.css": "^8.0.1",
+      "react": "^18.2.0",
+      "react-app-rewired": "^2.2.1",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test --env=jsdom",
+      "eject": "react-app-rewired eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
